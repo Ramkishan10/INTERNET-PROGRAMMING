@@ -1,0 +1,45 @@
+body
+{
+    margin: 0;
+    background-image: url('https://e1.pxfuel.com/desktop-wallpaper/433/244/desktop-wallpaper-web-page-backgrounds-color-2189-dark-grey-background.jpg');
+
+}
+#main
+{ 
+    background-image: url('https://static.vecteezy.com/system/resources/previews/009/096/272/original/abstract-colorful-background-with-place-for-text-blurred-gradient-backdrop-illustration-for-your-graphic-design-template-banner-poster-or-website-space-free-vector.jpg') ;
+    margin: 50px;
+    height: 750px;
+}
+#nav
+{
+    padding-left: 100px;
+    padding-top:65px;
+    
+}
+#left > h1{
+
+    margin:2px;
+    padding-left: 100px;
+    letter-spacing: 2px;
+        
+}
+#left > small
+{
+    margin:2px;
+    padding-left: 100px;
+}
+#anchor > a
+{
+    width:200px;
+    background-color: none;
+    color: white;
+    padding:20px;
+    text-decoration: none;
+}
+#anchor > a:hover{
+    color: aqua;
+}
+#anc > a{
+    padding:82px;
+    font-size: 19px; 
+}
