@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script>
+            $(document).ready(function(){
+                $("button").click(function(){
+                    $("#img1").fadeToggle(3000);
+                    $("#img2").fadeToggle(3000);
+                });
+            });
+        </script>
+    </head>
+    <body>
+        <p> click this button for image to fadein and fade out &NonBreakingSpace; <button>Click</button> </p><br><br>
+        <div>
+            <img id="img1" src="C:\Users\21cse\OneDrive\Pictures\Nitro\Nitro_Wallpaper_5000x2813.jpg" width="600px" >
+            <img  id="img2" src="C:\Users\21cse\OneDrive\Pictures\Nitro\planet9_Wallpaper_5000x2813.jpg" width="600px" hidden>
+        </div>
+    </body>
+</html>
